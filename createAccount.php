@@ -15,7 +15,6 @@ $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
 // Requête préparée
 $sql = "INSERT INTO users (username, mail, password) VALUES ('$username','$email', '$password')";
-$conn->query($sql);
 if (!$conn->query($sql)) {
   die("Erreur SQL: " . $conn->error);
 }
