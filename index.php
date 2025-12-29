@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>mini-social</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style/styleAcceuil.css">
 </head>
 
 <body>
